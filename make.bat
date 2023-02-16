@@ -88,6 +88,9 @@ IF "%1" == "docs" GOTO :DOCS
 %JAVACPATH% com/planet_ink/siplet/applet/*.java
 %JAVACPATH% com/planet_ink/siplet/support/*.java
 
+REM CUSTOM CLASSES
+%JAVACPATH% custom/localdevmud/coffee_mud/Items/Basic/*.java
+
 GOTO :FINISH
 
 :DOCS
