@@ -1314,6 +1314,7 @@ public class CMProtocols extends StdLibrary implements ProtocolLibrary
 				}
 				buf=new ByteArrayOutputStream();
 				buf.write(Session.MSDP_VAR);buf.write(type.toString().getBytes(Session.MSDP_CHARSET));
+				buf.write(Session.MSDP_VAL);
 				buf.write(msdpListToMsdpArray(affects.toArray(new String[0])));
 			}
 			break;
