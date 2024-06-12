@@ -144,6 +144,10 @@ $JAVACPATH com/planet_ink/coffee_web/util/*.java
 $JAVACPATH com/planet_ink/siplet/applet/*.java
 $JAVACPATH com/planet_ink/siplet/support/*.java
 
+## Custom classes
+
+$JAVACPATH custom/localdevmud/coffee_mud/Items/Basic/*.java
+
 else
 
 echo "What!? No main compile for you...maybe you just wanted to compile the docs? Or change your MUD's name...any ways...I'll make this more intuitive in the future!"
